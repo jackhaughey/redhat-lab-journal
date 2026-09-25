@@ -128,3 +128,8 @@ ss -tulpn
 firewall-cmd --list-all
 systemctl status NetworkManager
 ```
+## Lessons
+
+| Date | Topic | Notes |
+|--------|--------|--------|
+
