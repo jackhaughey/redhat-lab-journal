@@ -65,3 +65,29 @@ nmcli device show ens18 | grep DNS
 
 Then reboot and confirm that the new configuration survives a reboot.
 
+## Test Connectivity
+### Ping the default gateway
+```
+ping 10.2.0.1
+```
+
+### Test external connectivity
+```
+ping 1.1.1.1
+ping 8.8.8.8
+```
+
+### Test DNS
+```
+ping www.redhat.com
+```
+
+## Testing
+
+```
+- [x] Static IPv4 configured
+- [x] Gateway configured
+- [x] DNS configured
+- [x] Connectivity verified
+- [x] Reboot test verified
+```
